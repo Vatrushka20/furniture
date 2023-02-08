@@ -1,0 +1,384 @@
+body {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.primaryButton {
+    width: 229px;
+    height: 70px;
+    background: #054C73;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+
+.primaryButton:hover {
+    background: #3387b4;
+}
+
+.pageTitle {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.pageDescription {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #666666;
+    padding-bottom: 50px;
+}
+
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.headerContent {
+    padding-top: 47px;
+    padding-bottom: 34px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headerContent .logo {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    color: #054C73;
+}
+
+.navigation .navList {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 65px;
+}
+
+.navigation .navList .navItem {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+    transition: all 0.3s ease-in-out;
+}
+
+.navigation .navList .navItem:hover {
+    text-decoration: underline;
+}
+
+.firstScreen {
+    background-image: url("assets/background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 159px;
+    padding-bottom: 151px;
+}
+
+.firstScreen .container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.firstScreen .content {
+    background: #DFE9F4;
+    border-radius: 10px;
+    padding: 40px;
+    width: 559px;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.firstScreen .content .generalTitle {
+    font-weight: 700;
+    font-size: 52px;
+    color: #054C73;
+}
+
+.firstScreen .content .generalSubtitle {
+    font-weight: 500;
+    font-size: 18px;
+    color: #333333;
+}
+
+.benefits {
+    background: #F2F5FF;
+}
+
+.benefits .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.benefits .benefit {
+    display: flex;
+    flex-direction: row;
+    gap: 27px;
+    align-items: center;
+}
+
+.benefit .content .title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    margin-bottom: 6px;
+}
+
+.benefit .content .description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.inspirationGallery {
+    text-align: center;
+}
+
+.inspirationGallery .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.spaceBox {
+    background: #F2F5FF;
+}
+
+.spaceBox .container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.spaceBox .content .pageDescription {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+}
+
+.spaceBox .deskImage {
+    position: relative;
+    z-index: 1;
+}
+
+.spaceBox .deskImage .dot {
+    width: 372px;
+    height: 372px;
+    background: #09513B;
+    border-radius: 50%;
+    position: absolute;
+    top: 24%;
+    right: -22%;
+    z-index: -1;
+}
+
+
+.rangeGallery .pageTitle {
+    text-align: center;
+}
+
+.rangeGallery .pageDescription {
+    text-align: center;
+}
+
+.rangeGallery .content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.desk .text {
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #333333;
+}
+
+.howItWorks {
+    border-top: 1px solid #D7D6D6;
+    text-align: center;
+}
+
+.howItWorks .content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.howItWorks .service .thumbnail {
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.howItWorks .service .dot {
+    padding: 15px 19px;
+    border-radius: 50%;
+    background: #111111;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    border: 20px solid #FFFFFF;
+    position: absolute;
+    bottom: -45px;
+    left: 140px;
+}
+
+.howItWorks .service .title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    padding-bottom: 10px;
+}
+
+.howItWorks .service .description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #666666;
+}
+
+.subscription {
+    background: #F2F5FF;
+    text-align: center;
+}
+
+.subscription .subscribeForm .field {
+    background: #FFFFFF;
+    border: 1px solid #054C73;
+    border-radius: 3px;
+    padding: 24px;
+    width: 400px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #011C42;
+}
+
+.subscription .subscribeForm .field::placeholder {
+    width: 400px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #011C42;
+    text-align: left;
+}
+
+.subscription .subscribeForm .primaryButton {
+    border-radius: 0;
+    margin-left: -4px;
+}
+
+.footer {
+    background: #03344F;
+    color: #FFFFFF;
+}
+
+.footer .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 25px;
+}
+
+.footer .content .photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding-top: 23px;
+}
+
+.footer .contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer .contacts .description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+@media screen and (max-width: 1199px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .inspirationGallery img {
+        width: 100%;
+        max-width: 355px;
+        height: auto;
+    }
+
+    .inspirationGallery .content {
+        gap: 20px;
+    }
+}
+
+
+@media screen and (max-width: 1175px) {
+    .spaceBox .deskImage .dot {
+        right: 31%;
+    }
+}
+
+
+@media screen and (max-width: 1075px) {
+    .spaceBox .container {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .spaceBox .deskImage .dot {
+        width: 650px;
+        height: 530px;
+        right: -15%;
+    }
+}
+
+@media screen and (max-width: 895px) {
+    .footer .content .photos {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer .container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer .contacts{
+        justify-content: space-evenly;
+    }
+}
+
+
+
+
+
